@@ -11,6 +11,9 @@ public class JukeBox {
 	private static JukeBox jukeBox;
 	
 	JukeBox() {}
+	/*
+	* used for junit testing
+	*/
 	
 	public static JukeBox getInstance() {
 		if(jukeBox == null) {
@@ -19,6 +22,9 @@ public class JukeBox {
 		}
 		return jukeBox;
 	}
+	/*
+	* Returns instance of the type jukebox in java
+	*/
 	
 	public void requestSong(String song) {
 		songQueue.add(song);
