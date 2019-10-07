@@ -13,5 +13,8 @@ class AddSongTest {
 		String song2 = "The ABCs";
 		assertEquals(song1, song2);
 	}
+	/*
+	* Runs test comparing first song added
+	*/
 
 }
